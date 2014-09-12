@@ -1,7 +1,7 @@
 javascript:(function(){
 	var url = "https://what-if.xkcd.com/";
-	do{
-		var num = Math.floor((Math.random() * 100) + 12)
-	}while(num == 0);
+	
+	var num = Math.floor((Math.random() * (111-1)) + 1)
+	
 	window.location=url.concat(num.toString());}
 	)();
